@@ -1,0 +1,14 @@
+package mainPackage;
+
+import com.company.Food;
+
+public class Cheese extends Food {
+
+    public Cheese(){
+        super ("Cheese");
+    }
+
+    public void consume(){
+        System.out.println(this + " eaten");
+    }
+}
